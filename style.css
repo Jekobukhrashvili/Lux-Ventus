@@ -6,3 +6,115 @@
 body{
   font-family: "Poppins", sans-serif;
 }
+.fashion
+{
+display: flex;
+ max-width: 1204px;
+ height: 698px;
+ top: 1280px;
+ margin-left: 118px;
+ margin-right: 118px;
+ border-radius: 20px;
+ background: rgba(255, 255, 255, 1);
+ box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+justify-content: center;
+}
+.fashionimg > img {
+  max-width: 1204px;
+height: 360.3px;
+border-radius: 20px;
+margin-bottom: 23px;
+}
+
+
+.smallcontainer {
+  margin-left: 64px;
+  margin-right: 64px;
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+text-align: center;
+gap: 18px;
+}
+
+.name,
+.date {
+width: 168px;
+height: 21px;
+top: 1678px;
+left: 269px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:rgba(188, 188, 188, 1);
+}
+
+.smallcontainer a {
+  width: 216px;
+height: 23px;
+color:rgba(242, 94, 94, 1);
+text-decoration: none;
+margin-bottom: 29.59px;
+}
+
+.smallcontainer p,
+.smallcontainer a {
+  padding-top: 22px;
+  padding-bottom: 39px;
+}
+.secondpart h2 {
+ max-width: 1044px;
+height: 36px;
+top: 1744px;
+margin-left: 64px;
+margin-right:96px ;
+font-size: 26px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(38, 38, 38, 1);
+margin-bottom: 23px;
+}
+
+.secondpart p {
+ max-width: 1033px;
+height: 73px;
+top: 1803px;
+margin-left: 64px;
+margin-right: 107px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left ;
+color:rgba(38, 38, 38, 1);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 64px;
+  margin-right: 876px;
+  margin-bottom: 38px;
+  text-align: left;
+  gap: 7.33px;
+}
+.button > img {
+  width: 51px;
+  height: 40px;
+}
+
+
+.button p {
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.24em;
+text-align: left;
+color: rgba(76, 224, 215, 1);
+}
